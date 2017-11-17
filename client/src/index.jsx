@@ -8,20 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      database: [
-        {title: 'Mean Girls'},
-        {title: 'Hackers'},
-        {title: 'The Grey'},
-        {title: 'Sunshine'},
-        {title: 'Ex Machina'}
-      ],
-      movies: [
-        {title: 'Mean Girls'},
-        {title: 'Hackers'},
-        {title: 'The Grey'},
-        {title: 'Sunshine'},
-        {title: 'Ex Machina'}
-      ]
+      database: []
     }
     this.addMovie = this.addMovie.bind(this);
     this.matchSearchValue = this.matchSearchValue.bind(this);
